@@ -140,7 +140,7 @@ main {
 }
 
 .review-detail {
-  background-color: #ffffff;
+  background-color: #fafcff;
   border-radius: 14px;
   padding: 24px;
 }
@@ -172,4 +172,28 @@ main {
   margin-top: 0;
   color: darkgrey;
   font-size: 15px;
+}
+/* last section */
+.last {
+  margin: 92.23px auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.last-h3 {
+  font-size: 70px;
+}
+
+.input-fields {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  /* padding: 71px 0; */
+}
+
+.input-info {
+  width: 100%;
+  padding: 14px 16px;
+  font-size: 16px;
+  border-radius: 10px;
 }
