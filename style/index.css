@@ -214,4 +214,5 @@ footer li a {
 }
 
 .footer-links {
+  justify-content: space-around;
 }
