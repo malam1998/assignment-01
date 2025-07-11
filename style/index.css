@@ -1,0 +1,175 @@
+.open-sans-body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+/* shared style */
+
+.flex-style {
+  display: flex;
+}
+
+.content-center {
+  margin: 0 auto;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #4e47ff;
+  padding: 12px 36px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.primary-width {
+  max-width: 1140px;
+}
+
+.open-sans-inter {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+main {
+  background-color: #f5f8ff;
+}
+
+/* banner style */
+.banner {
+  background-image: url(/images/Hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 698px;
+}
+.banner-content {
+  max-width: 1140px;
+  justify-content: space-between;
+  padding: 50px 0;
+  align-items: center;
+}
+
+.logo {
+  font-size: 34px;
+  /* font-family:, sans-serif; */
+  color: #4e47ff;
+}
+
+.bottom-banner {
+  max-width: 905px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.banner-description {
+  font-size: 65px;
+  font-weight: bold;
+  /* font-family: "Raleway", sans-serif */
+}
+
+/* action-section */
+.action {
+  margin-top: 116px;
+  /* max-width: 1140px; */
+  margin: 116px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-title {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.action-description {
+  max-width: 517px;
+  color: #252432;
+  font-size: 24px;
+  text-align: left;
+  /* flex-wrap: wrap; */
+}
+
+.action-img {
+  width: 403px;
+  border-radius: 48px;
+}
+/* productive user section */
+
+.productive-users {
+  padding: 50px 80px;
+  background-color: #e5e7ff;
+  margin: 116px auto;
+  border-radius: 24px;
+}
+
+.productiveUser-title {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  /* margin-top: 50px; */
+  margin-bottom: 40px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.user-title {
+  font-size: 80px;
+  color: #4e47ff;
+  margin-bottom: 2px;
+  margin-top: 0;
+}
+
+.user-description {
+  color: #000000;
+  font-size: 20px;
+}
+/* review section */
+.reviewer {
+  justify-content: space-around;
+  gap: 24px;
+}
+
+.review-detail {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 24px;
+}
+
+.ratings {
+  margin: 126px auto;
+}
+
+.topic-title {
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.user-data {
+  align-items: center;
+  gap: 25px;
+}
+
+.review-img {
+  border-radius: 20px;
+}
+
+.name {
+  margin-bottom: 3px;
+}
+
+.date {
+  margin-top: 0;
+  color: darkgrey;
+  font-size: 15px;
+}
